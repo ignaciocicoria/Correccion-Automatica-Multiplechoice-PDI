@@ -45,17 +45,17 @@ El sistema identifica las marcas mediante análisis de líneas, segmentación y 
 
 ## Instalación y ejecución
 
-# 1️⃣ Clonar el repositorio
+### 1️⃣ Clonar el repositorio
 git clone https://github.com/usuario/Exam-AutoGrader-PDI.git
 cd Exam-AutoGrader-PDI
 
-# 2️⃣ Crear entorno virtual
+### 2️⃣ Crear entorno virtual
 python -m venv venv
 venv\Scripts\activate        # En Windows
-# source venv/bin/activate   # En Linux / macOS
+source venv/bin/activate   # En Linux / macOS
 
-# 3️⃣ Instalar dependencias
+### 3️⃣ Instalar dependencias
 pip install -r requirements.txt
 
-# 4️⃣ Ejecutar el script principal
+### 4️⃣ Ejecutar el script principal
 python exam_autograder.py
